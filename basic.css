@@ -1,0 +1,66 @@
+/* simple theme! */
+
+body{
+	background-image: url("starwars.jpg");
+	font-family:tahoma;
+	text-align: center;
+}
+
+h1{
+	color: white;
+	font-size: 60px;
+	margin-bottom: -5px;
+}
+
+h1:hover{
+	font-size:70px;
+}
+
+h3{
+	color:lightgray;
+	font-size: 20px;
+}
+
+h2{
+	color:lightgray;
+}
+
+p{
+	color:gray;
+	font-family: Times;
+	border: 3px solid;
+	border-color: lightsteelblue;
+	padding: 20px;
+	width: 50%;
+	margin:auto;
+}
+p:hover{
+	color: white;
+	width: 70%;
+	font-size: 20px;
+	background-color: darkgray;
+}
+ul{
+	background-color: lightgray;
+	border: 3px solid;
+	padding: 5px;
+	border-color: darkgray;
+	width: 25%;
+	margin: auto;
+}
+li{
+	color:gray;
+	display: inline-block;
+}
+
+a:link{
+	color: black;
+}
+a:hover{
+	font-size:20px;
+	font-family: arial black;
+}
+
+a:visited{
+	color: gray;
+}

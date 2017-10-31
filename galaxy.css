@@ -1,0 +1,55 @@
+/* galaxy themed! */
+
+body{
+	background-image: url("stars.gif");
+	font-family:arial;
+	text-align: center;
+}
+
+h1{
+	color: gray;
+	text-align: center;
+	font-size: 90px;
+	margin-bottom: -5px;
+}
+
+h3{
+	color:gray;
+	text-align: center;
+}
+
+h2{
+	color:gray;
+	text-align: center;
+}
+
+p{
+	color:gray;
+	text-align: center;
+	font-family: Times;
+	border: 5px dashed;
+	border-color: lightsteelblue;
+	padding: 20px;
+}
+ul{
+	background-color: lightsteelblue;
+	border: 3px dashed;
+	padding: 5px;
+	border-color: darkgray;
+	text-align: center;
+}
+li{
+	color:gray;
+	display: inline-block;
+}
+
+a:link{
+	color: black;
+}
+a:hover{
+	font-size:20px;
+}
+
+a:visited{
+	color: gray;
+}
