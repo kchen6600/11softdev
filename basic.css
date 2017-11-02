@@ -12,19 +12,15 @@ h1{
 	margin-bottom: -5px;
 }
 
-h1:hover{
-	font-size:70px;
-}
-
 h3{
-	color:lightgray;
+	color:gray;
 	font-size: 20px;
 }
 
 h2{
 	color:lightgray;
 }
-
+/*
 p{
 	color:gray;
 	font-family: Times;
@@ -34,19 +30,11 @@ p{
 	width: 50%;
 	margin:auto;
 }
-p:hover{
-	color: white;
-	width: 70%;
-	font-size: 20px;
-	background-color: darkgray;
-}
+*/
+
 ul{
 	background-color: lightgray;
-	border: 3px solid;
-	padding: 5px;
-	border-color: darkgray;
-	width: 25%;
-	margin: auto;
+
 }
 li{
 	color:gray;
@@ -63,4 +51,45 @@ a:hover{
 
 a:visited{
 	color: gray;
+}
+
+.extreme{
+	color: lightsteelblue;
+	font-size:20px;
+	background-color: gray;
+}
+
+.navzone{
+	background-color: lightgray;
+	width: 25%;
+	margin: auto;
+	border: 3px solid;
+	margin-top: 25px;
+	border-color: darkgray;
+}
+
+.content{
+	text-align: center;
+	
+}
+.prose{
+	font-style: italic;
+	width:70%;
+	margin:auto;
+	border: 3px dashed;
+	background-color: lightgray;
+}
+
+.prose:hover{
+	color: white;
+	font-size: 20px;
+	background-color: darkgray;
+	margin:auto;
+}
+#head1{
+	font-size: 60px;
+}
+
+#tehlulz{
+	margin-left:-30px;
 }
